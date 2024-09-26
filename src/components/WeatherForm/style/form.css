@@ -1,0 +1,138 @@
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.search {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    margin-left: 60px;
+}
+
+.info {
+    width: 600px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.inputCity {
+    width: 350px;
+    height: 30px;
+    text-align: center;        
+    border-radius: 30px;
+    border: 1px solid rgb(182, 182, 182);
+}
+
+.inputCity::placeholder {
+    text-align: center;
+}
+
+.btnSearch {
+    transition: 0.3s;
+    background-image: url('../../../assets/search.png');
+    margin-left: 10px;
+    background-position: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 30px;
+    border: 1px solid rgb(182, 182, 182);
+}
+
+.btnSearch:hover {
+    cursor: pointer;
+    background-color: rgb(214, 212, 212);
+    transition: 0.3s; 
+}
+
+.weather {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    gap: 5px;
+}
+
+.weatherState-icon {
+    margin-top: 15px;
+    width: 150px;
+    height: 150px;
+    padding: 0;
+    margin: 0;
+}
+
+.title {
+    line-height: 1.15;
+    font-size: 5.5rem;
+    padding: 0;
+    text-align: center;
+    color: #faf7fa;
+}
+
+.city {
+    margin: 0;
+    line-height: 1.15;
+    font-size: 2rem;
+    padding: 0;
+    text-align: center;
+    color: #faf7fa;
+}
+
+.search-button {
+    width: 20px;
+    height: 20px;
+    margin-top: 2px;
+}
+
+img.search-icon {
+    width: 30px;
+    height: 30px;
+    margin-top: 2px;
+}
+
+.humidity {
+    margin: 0;
+    line-height: 1.15;
+    font-size: 2rem;
+    padding: 0;
+    text-align: center;
+    color: #faf7fa;
+}
+
+.humidity-icon {
+    width: 30px;
+    height: 30px;
+    margin-top: 2px;
+}
+
+.wind {
+    margin: 0;
+    line-height: 1.15;
+    font-size: 2rem;
+    padding: 0;
+    text-align: center;
+    color: #faf7fa;
+}
+
+.wind-icon {
+    width: 30px;
+    height: 30px;
+    margin-top: 2px;
+}
+
+.search-icon {
+    width: 20px;
+    height: 20px;
+    margin-top: 2px;
+}
+
